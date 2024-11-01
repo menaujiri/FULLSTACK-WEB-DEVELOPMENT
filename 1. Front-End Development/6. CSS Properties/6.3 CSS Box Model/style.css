@@ -1,7 +1,10 @@
-* {
-    background-color: blue;
+#first {
+    background-color: cadetblue;
+    padding: 20px;
+    border: solid10px;
 }
 
-h1 {
-    color: aqua;
+#second {
+    background-color: gold;
 }
+
