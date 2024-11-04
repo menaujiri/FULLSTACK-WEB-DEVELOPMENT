@@ -1,0 +1,22 @@
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+* {
+    background-color: black;
+}
+
+.project {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: azure;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+
+img {
+    border: solid white 5px;
+    width: 100%;
+}
