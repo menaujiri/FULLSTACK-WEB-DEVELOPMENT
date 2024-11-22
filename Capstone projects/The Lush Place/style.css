@@ -143,12 +143,34 @@ spam {
     box-shadow: 0 0 1rem bisque;
 }
 
-
-
-
-
 /* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.heading {
+    font-size: 3.3rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.about-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.about-resume h3{
+    font-size: 2.4rem;
+}
+
+.about-text p{
+    font-size: 1.8rem;
+}
 
 /* Skills Section */
 
