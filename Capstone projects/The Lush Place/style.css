@@ -139,8 +139,11 @@ spam {
 
 .btn:hover {
     color: bisque;
-
+    background: #000;
+    box-shadow: 0 0 1rem bisque;
 }
+
+
 
 
 
