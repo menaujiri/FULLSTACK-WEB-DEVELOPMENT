@@ -59,8 +59,89 @@ body{
     display: none;
 }
 
+section {
+    padding: 10rem 10%;
+    min-height: 100vh;
+}
 
-/* Header Section */
+
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-bio h3{
+    font-size: 2rem;
+}
+
+spam {
+    color: bisque;
+}
+
+.home-bio h1{
+    font-size: 3.5;
+    line-height: 1.4;
+}
+
+.home-bio p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.profile-pic img{
+    width: 30vm;
+    border-radius: 50%;
+    animation: float 5s ease-in-out;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.5rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.social-media a{
+    width: 3.8rem;
+    height: 3.8rem;
+    font-size: 2.2rem;
+    margin: 1rem 1rem 2rem 0;
+    display: inline flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.4s ease;
+}
+
+.social-media a:hover{
+    color: bisque;
+    box-shadow: 0 0 1rem bisque;
+}
+
+.btn {
+    display: inline-block;
+    background: bisque;
+    margin: 2rem 0;
+    padding: 1rem 2.5rem;
+    border-radius: 1.3rem;
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    color: bisque;
+
+}
+
 
 
 /* About Section */
