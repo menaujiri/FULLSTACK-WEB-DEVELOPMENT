@@ -279,13 +279,80 @@ spam {
     transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-
+.card-overlay .bx:hover{
+    transform: scale(1.2);
+    color: bisque;
+    background: #000;
+    box-shadow: 0 0 2rem aqua;
+}
 
 
 /* Contact Section */
 
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: grid;
+    row-gap: 1rem;
+}
+
+form input,
+textarea{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+
 
 /* Footer */
+.footer{
+    padding: 2rem 10%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+hr{
+    margin: 1rem;
+    border-bottom: thin solid #fff;
+}
 
 
 /* Responsive Section */
+@media (max-width: 1200px){
+    html{
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 992px){
+    .header{
+        padding: 2rem 4%;
+    }
+    .home img{
+        width: 40vw;
+    }
+}
+
+@media (max-width: 767px){
+    #menu-btn{
+        display: block;
+    }
+    .menu-bar{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        background: rgba(0, 0, 0, 0.9);
+        display: none;
+    }
+}
+
+@media (max-width: 620px){}
+
+@media (max-width: 450px){}
