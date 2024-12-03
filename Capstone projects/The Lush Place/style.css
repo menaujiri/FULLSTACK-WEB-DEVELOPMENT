@@ -351,8 +351,42 @@ hr{
         background: rgba(0, 0, 0, 0.9);
         display: none;
     }
+    .menu-bar.active{
+        display: block;
+    }
+    .menu-bar a{
+        display: block;
+        margin: 2rem;
+        font-size: 2rem;
+    }
+    .home, .about-items{
+        flex-direction: column;
+    }
+    .home img{
+        width: 80vw;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .skills-items{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
-@media (max-width: 620px){}
+@media (max-width: 620px){
+    .skills-items{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .project-items{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .heading{
+        font-size: 2.7rem;
+    }
+}
 
-@media (max-width: 450px){}
+@media (max-width: 450px){
+    html{
+        font-size: 50%;
+    }
+}
