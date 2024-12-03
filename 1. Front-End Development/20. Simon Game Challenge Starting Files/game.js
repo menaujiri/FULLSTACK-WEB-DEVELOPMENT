@@ -9,3 +9,4 @@ function nextSequence() {
     gamePattern.push(randomChosenColour);
 }
 
+
