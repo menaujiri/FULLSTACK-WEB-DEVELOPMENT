@@ -1,13 +1,16 @@
 
+
+
 var bottonColours = ["red", "blue", "green", "yellow"]
 
 var gamePattern = []
+var userClickedPattern = []
 
-function nextSequence() {
-    var randonNumber = Math.floor(Math.random() * 4);
-    var randomChosenColour = bottonColours[randonNumber];
-    gamePattern.push(randomChosenColour);
-    $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
-    new audio = new Audio("sounds/" + randomChosenColour + ".mp3");
+$(".btn").click(function() {
+    var userChosenColour = $(this).attr("id");
+    userClickedPattern.push(userChosenColour);
+    new audio = new Audio("sounds/" + userChosenColour + ".mp3");
     audio.play();
-}
+    animatePress(userChosenColour);
+})
+
