@@ -2,6 +2,7 @@ var buttonColours = ["red", "blue", "green", "yellow"];
 
 var gamePattern = [];
 var userClickedPattern = [];
+var level = 0;
 
 
 
@@ -23,3 +24,11 @@ function playSound(name) {
     var audio = new Audio('sounds/' + randomChoosenNumber + '.mp3');
     audio.play();
 }
+
+function animatePress(currentColour) {
+    $("#" + currentColour).addClass("pressed");
+    setTimeout(function() {
+        $("#" + currentColour).removeClass("pressed");
+    }, 100);
+}
+
