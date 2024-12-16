@@ -42,7 +42,107 @@
     </div>
 
     <!-- Services Section -->
-     
+    <div id="Services" class="container py-5">
+      <h2 class="pb-2 border-bottom">Services</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="assets/media/Lush GT Photo.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Gallery Image 1">
+            <div class="card-body">
+              <h5 class="card-title">Wigs</h5>
+              <p class="card-text">Elevate your Looks</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="assets/media/Lush GT Photo.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Gallery Image 2">
+            <div class="card-body">
+              <h5 class="card-title">WigMaking</h5>
+              <p class="card-text">Craft like no other</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="assets/media/Lush GT Photo.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Gallery Image 3">
+            <div class="card-body">
+              <h5 class="card-title">Laundary</h5>
+              <p class="card-text">Make is Cleaning and stylish</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="assets/media/Lush GT Photo.png" class="bd-placeholder-img card-img-top" width="100%" height="225" alt="Gallery Image 4">
+            <div class="card-body">
+              <h5 class="card-title">Colouring</h5>
+              <p class="card-text">Bring you personality to Life</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Photo Gallery-->
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Gallery</h2>
+        <p><span>Check</span> <span class="description-title">Our Gallery</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "1200": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/media/pexels-cottonbro-3993312.jpg"><img src="assets/media/pexels-cottonbro-3993312.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/media/pexels-cottonbro-3993312.jpg"><img src="assets/media/pexels-cottonbro-3993312.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/media/pexels-cottonbro-3993312.jpg"><img src="assets/media/pexels-cottonbro-3993312.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/media/pexels-cottonbro-3993312.jpg"><img src="assets/media/pexels-cottonbro-3993312.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/media/pexels-cottonbro-3993312.jpg"><img src="assets/media/pexels-cottonbro-3993312.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/media/pexels-cottonbro-3993312.jpg"><img src="assets/media/pexels-cottonbro-3993312.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/media/pexels-cottonbro-3993312.jpg"><img src="assets/media/pexels-cottonbro-3993312.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/media/pexels-cottonbro-3993312.jpg"><img src="assets/media/pexels-cottonbro-3993312.jpg" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="index.js" charset="utf-8"></script>
